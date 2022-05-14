@@ -1,7 +1,4 @@
-
 #include"Arreglo.h"
-
-
 
 int main(){
 
