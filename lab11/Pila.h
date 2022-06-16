@@ -72,7 +72,7 @@ class Pila{
             }
 
             if(posiciones.empty()){
-                cout<<"El elemento "<<dato<<" no se encuentra en la pila";
+                cout<<"El elemento "<<dato<<" no se encuentra en la pila"<<endl;
                 return posiciones;
             }
 
@@ -112,6 +112,12 @@ class Pila{
             }
 
             return actual->getDato();    
+        }
+
+        void deletePila(){
+            while(!this->empty()){
+                pop();
+            }
         }
 
 };
